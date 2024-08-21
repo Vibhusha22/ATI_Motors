@@ -1,0 +1,99 @@
+.scrollable-container {
+  max-height: 75vh; 
+  overflow-y: auto; 
+  background: linear-gradient(45deg, #000000, #333333, #000000);
+
+}
+
+.album {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+
+.Main{
+  width:100%;
+}
+.Container{
+  display:flex;
+}
+.custom-width {
+  width: 100%; 
+  margin: 2px;
+  border:none !important;
+}
+.contain{
+  margin:3px;
+}
+.each-container{
+  height: 568px !important;
+}
+.description-scroll {
+  max-height: 135px; 
+  overflow-y: auto;
+  border: 2px solid #ccc;
+  padding: 3px; 
+  border-radius: 3px; 
+  
+}
+
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 1em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border: 1px solid #ddd;
+}
+
+.card:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: #bbb; 
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+
+.read-the-docs {
+  color: #888;
+}
