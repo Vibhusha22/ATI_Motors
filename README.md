@@ -18,7 +18,7 @@ React Router DOM: For routing. Install with: npm i react-router-dom
 
 Axios: For making API requests. Install with: npm i axios
 
-Zustand: For state Management
+Zustand: For state Management. Install with: npm i zustand
 
 # Installation
 
